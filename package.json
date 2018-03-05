@@ -1,0 +1,33 @@
+{
+  "name": "hmr-svcs",
+  "version": "1.0.0",
+  "description": "Hydra Message Relay Service",
+  "main": "hmr-svcs.js",
+  "keywords": [
+    "hydra",
+    "message",
+    "relay",
+    "benchmark"
+  ],
+  "author": "Carlos Justiniano",
+  "license": "MIT",
+  "private": true,
+  "scripts": {
+    "start": "node hmr-svcs.js",
+    "debug": "node-debug hmr-svcs.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/cjus/hmr-svcs.git"
+  },
+  "engines": {
+    "node": ">=8.9.4"
+  },
+  "dependencies": {
+    "hydra-express": "1.6.2"
+  },
+  "bugs": {
+    "url": "https://github.com/cjus/hmr-svcs/issues"
+  },
+  "homepage": "https://github.com/cjus/hmr-svcs#readme"
+}

@@ -1,0 +1,6 @@
+.DS_Store
+launch.json
+*.log
+scratch.*
+node_modules/
+.npmrc
