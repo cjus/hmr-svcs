@@ -3,4 +3,6 @@ launch.json
 *.log
 scratch.*
 node_modules/
-.npmrc
+*.paw
+sample.*
+.vscode

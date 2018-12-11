@@ -28,19 +28,20 @@ api.get('/relay', (req, res) => {
 });
 
 /**
- * @name [POST]/replay
+ * @name [POST]/relay
  * @description responds to a relay post request by sending back the received message payload
  * @param {object} req - express request object
  * @param {object} res - express response object
  * @return {undefined}
  */
 api.post('/relay', (req, res) => {
-  serverResponse.sendOk(res, {
+  let response = {
     result: {
       from: `${hydra.getServiceName()} - ${hydra.getInstanceID()}`,
       body: req.body
     }
-  });
+  };
+  serverResponse.sendOk(res, response);
 });
 
 /**
